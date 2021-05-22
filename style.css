@@ -7,3 +7,58 @@ body {
     color: #a90e27;
     font-size: xx-large;
 }
+
+.casino {
+    background-image: url("dice-25637.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.button {
+    background-color: rgba(113, 201, 25);
+    top: 45%;
+    left: 50%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bolder;
+    width: 300px;
+}
+
+#crapsResults {
+    color: #ff00ff;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#die2Results {
+    color: rgba(113, 201, 25);
+    font-size: xx-large;
+}
+
+#die1Results {
+    color: rgba(113, 201, 25);
+    font-size: xx-large;
+}
+
+#dieSum {
+    color: rgba(113, 201, 25);
+    font-size: xx-large;
+}
+
+#enteringCasino {
+    color: rgba(113, 201, 25);
+    font-size: xx-large;
+}
+
+.button:hover {
+    background-image: none !important;
+    background-color: #ff00ff !important;
+}

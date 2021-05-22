@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<!--UAT Space Program Shell Page
+<!--Digital Dice Casino
 Written by Megan Folsom
 megfolso@uat.edu
-May 13, 2021-->
+May 21, 2021
+
+Megan's Digital Dice Casino is dice-themed digital casino featuring every dice game imaginable. 
+Winners can rejoice in the notion that they have battled the odds and won through random chance. 
+Losers can keep trying until they become winners. 
+-->
+<title>Digital Dice Casino</title>
 <html>
 
 <head>
@@ -19,19 +25,28 @@ May 13, 2021-->
         document.write("document.write function test");
     </script>
     <p>Paragraph Tag Placeholder Text</p><br>
-    <br>
-    <br>
     <p id="countdownTimer">Countdown Status ...</p>
     <button style='color:green;' onclick="startCountdown();">Start</button>
     <button style='color:red;'>Stop</button><br><br>
     <!--script>alert("We have lift-off!");</script-->
     <!--section for the craps game-->
-    <div id="die1Results"></div>
-    <div id="die2Results"></div>
-    <div id="dieSum"></div>
-    <div id="crapsResults">Craps game Status</div>
-    <br>
-    <button onclick="playCraps()">Play Craps</button>
+    <div align = "center" id="enteringCasino">**Welcome to the Digital Casino**</div>
+    <div align = "center" class="casino">
+        <br>
+        <br>
+        <button class="button" onclick="playCraps()">Play Craps</button>
+        <br>
+        <div id="die1Results"></div>
+        <div id="die2Results"></div>
+        <div id="dieSum"></div>
+        <div id="crapsResults">Craps game Status</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
 </body>
 
 </html>

@@ -56,12 +56,12 @@ function playCraps() {
     die1 = Math.ceil(Math.random() * 6);
     console.log("die1: " + die1);
     //show the value of first 6-sided die
-    document.getElementById("die1Results").innerHTML = "the value of 6-sided die 1 is: " + die1;
+    document.getElementById("die1Results").innerHTML = "Die One: " + die1;
     //set the value of second 6-sided die
     var die2;
     die2 = Math.ceil(Math.random() * 6);
     //show the value of second 6-sided die
-    document.getElementById("die2Results").innerHTML = "the value of 6-sided die 2 is: " + die2;
+    document.getElementById("die2Results").innerHTML = "Die Two: " + die2;
     //add the values of the two dice
     console.log("die2 " + die2);
     var diesum;
@@ -74,12 +74,12 @@ function playCraps() {
         console.log(diesum);
         //if craps, display losing message    
         document.getElementById("crapsResults").innerHTML = "Craps! You Lose!";
+    } else if ((die1 == die2) && (die2 % 2 == 0)) {
+        document.getElementById("crapsResults").innerHTML = "Hurray! Doubles! You win!";
         //if craps didn't occur show encouraging message
     } else {
         console.log("wasn't 7 or 11")
         document.getElementById("crapsResults").innerHTML = "Keep Trying!";
     }
-    // var die20;
-    // die20 = Math.ceil(Math.random() *20);
-    // console.log("the value of 20-sided die is: "+die20);
-};
+
+}
